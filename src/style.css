@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: lightskyblue;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title {
+  background-color: dodgerblue;
+  color: white;
+  width: fit-content;
+  align-self: center;
+  padding: 10px;
+}
+
+.todo {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: auto;
+  background-color: aliceblue;
+  padding: 50px;
+  border-radius: 30px;
+}
+
+.todo-list {
+  text-align: left;
+}
+
+.todo-form span {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-form span > *:first-child {
+  width: 80%;
+}
